@@ -1,18 +1,20 @@
-#This is a comment
-print("Hello, World!")
+#Addition Operator (+)
+print(6 + 9) #outputs 15
 
+#Subtraction Operator (-) 
+print(9 - 6) #outputs 3
 
-print("Hello, World!")#This is a comment
+#Multiplication Operator (*)
+print(9 * 6) #outputs 54
 
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
+#Division Operator (/)
+print(9 / 6) #outputs 1.5
 
+#Modulus Operator (%)
+print(9 % 6) #outputs 3
 
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
+#Exponent Operator (**)
+print(2 ** 3) #outputs 8
+
+#Floor Division Operator (//)
+print(9 // 6) #outputs 1
