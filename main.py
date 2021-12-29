@@ -1,18 +1,11 @@
-#This is a comment
-print("Hello, World!")
+#binary number system------- base 2
+print(0b110011) #prints 51
 
+#octal number system-------base 8
+print(0x23) #prints 35
 
-print("Hello, World!")#This is a comment
+#decimal number system------ base 10
+print(123) #prints 123
 
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
-
-
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
+#hexadecimal number system--------base 16
+print(0x129ff) #prints 76287
