@@ -6,7 +6,7 @@ print("Hello, World!")#This is a comment
 
 #This is a comment
 #written in
-#multiple line. 
+#multiple lines. 
 print("Hello, World!")
 
 
