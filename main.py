@@ -1,18 +1,6 @@
-#This is a comment
-print("Hello, World!")
+print("Hello" + " " +"world!") #prints "Hello World"
+print("I love " + "Kode Champ") #print "I love Kode Champ"
 
+print("I love you, " * 2) #prints "I love you, I love you,"
+print("Stanley" * 3) #prints "StanleyStanleyStanley"
 
-print("Hello, World!")#This is a comment
-
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
-
-
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
