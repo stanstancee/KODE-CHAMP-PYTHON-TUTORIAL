@@ -1,18 +1,12 @@
-#This is a comment
-print("Hello, World!")
+# Assign Stanley to variable - name
+name = "Stanley"
+print(name) #prints Stanley
 
-
-print("Hello, World!")#This is a comment
-
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
-
-
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
+#Assign 10 to x
+x = 10
+#Assign 4 to y
+y = 4
+#Assign the sum of x and y to variable-- sum
+sum = x + y
+#print sum
+print(sum) #prints 14
