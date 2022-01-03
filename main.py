@@ -1,7 +1,7 @@
 #Type casting
 #simple calculator
 num_1 = input("Please enter your first number\n") # Get first input
-num_2 = input("Plese enter your second number\n") # Get second input
+num_2 = input("Please enter your second number\n") # Get second input
 
 #cast strings to floats
 num_1_float = float(num_1)
