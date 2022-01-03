@@ -1,18 +1,5 @@
-#This is a comment
-print("Hello, World!")
+name = input() #prompts for name
+print(name)
 
-
-print("Hello, World!")#This is a comment
-
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
-
-
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
+name = input("Please enter your full name \n") #prompts with message for the user
+print("Your name is " + name)  #outputs: Your name is {name}
