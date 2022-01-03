@@ -1,18 +1,10 @@
-#This is a comment
-print("Hello, World!")
+#sep 
+print("I","am","learning", sep="----") #prints: I----am----learning
+#end 
+print("Hi, there", end="! ")
+#end and sep
+print("First day at work." ,"Second day at work.", sep="\n" , end="\n** Written by stanley**")
 
 
-print("Hello, World!")#This is a comment
-
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
 
 
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
