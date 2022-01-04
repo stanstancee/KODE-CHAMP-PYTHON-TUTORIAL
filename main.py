@@ -1,18 +1,7 @@
-#This is a comment
-print("Hello, World!")
+first_name, last_name = "Stanley" , "Luke"
+message = "Hi, my name is {} {}".format(first_name, last_name)
+print(message.upper()) # HI, MY NAME IS STANLEY LUKE
+print(message.lower()) # hi, my name is stanley luke
+print(message.count("n")) # 2
 
 
-print("Hello, World!")#This is a comment
-
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
-
-
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
