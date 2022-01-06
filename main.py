@@ -1,18 +1,25 @@
-#This is a comment
-print("Hello, World!")
+#count 1 to 100
+count = 1
+while count <= 100: 
+  print(count) #for each loop, print count
+  count += 1 #increase count by 1.
 
 
-print("Hello, World!")#This is a comment
+x = 1
+while x <= 12:
+  product = 2 * x #for each loop multiply x by 2
+  print("2 x {} = {}".format(x, product)) #print to screen
+  
+  x += 1 # add 1 to x for every loop.
 
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
+# while/else block
+downloading = True
+perc = 0
 
-
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
+while downloading and perc < 100 :
+  print("downloading " + str(perc) + "%")
+  if(perc > 70):
+    print("Almost done")
+  perc = perc + 10
+else:
+  print("download completed")
