@@ -28,7 +28,7 @@ for val in "Stanley":
 print("The end")
 
 #break inside for loop
-one_to_twenty = range(34)
+one_to_twenty = range(1,21)
 for val in one_to_twenty :
   mid_val = list(one_to_twenty)
   mid_val = len(mid_val)// 2
