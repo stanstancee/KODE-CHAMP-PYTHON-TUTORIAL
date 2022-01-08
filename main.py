@@ -1,64 +1,45 @@
-#list construction
-#using list constructor
-my_numbers = list((1,2,3,4,5,6,7,8,9))
-print(my_numbers)
-
-#using sqare brackets
 week = ["sunday","monday","tuesday", "wednesday", "thursday", "friday", "saturday"]
-print(week)
+num = [2,6,7,4,65,3,5]
 
-# indexing an array
-first_day = week[0] # list index starts from 0
-third_day = week[2]
-print(first_day) # sunday
-print(third_day) # wednesday
+# max()
+max_week = max(week) # maximum starting character
+max_num = max(num)
+print(max_week) # wednesday
+print(max_num) # 65
 
-# negative index
-# last element in the list has index -1
-last_day = week[-1]
-print(last_day) # saturday
+# min()
+min_week = min(week) # maximum starting character
+min_num = min(num)
+print(min_week) # friday
+print(min_num) # 2
 
-#index error 
-# looking up for the wrong index raises an error 
-# unknown_day = week[9]
-# print(unknown_day) #IndexError: list index out of range
+# sorted()
+sorted_list = sorted(num)
+reverse_sorted_list = sorted(num, reverse = True)
+print(sorted_list)
+print(reverse_sorted_list)
 
-#slicing
-week = ["sunday","monday","tuesday", "wednesday", "thursday", "friday", "saturday"]
-#slice from index 2 to index 5 (index 5 excluded)
-some_days = week[2 : 5] 
-print(some_days) # ["tuesday", "wednesday", "thursday",]
+# methods
+#index
+num_index = num.index(4)
+monday_index = week.index("monday")
+print(num_index)
+print(monday_index)
 
-# begin at the original list
-some_days = week[: 5] #  ["sunday","monday","tuesday", "wednesday"]
-print(some_days)
+# remove()
+num.remove(2) #remove number 2
+print(num)
 
-# end at the very end of the original list
-some_days = week[3: ]
-print(some_days) # ["wednesday", "thursday", "friday", "saturday"]
+# pop()
+num.pop() # remove from the last index
+num.pop(4) # remove index 4
+print(num)
 
-# getting the length of a list 
-print(len(week)) # 7
-
-#list membership operators
-check = "monday" in week
-print(check) # True
-
-check = "April" not in week 
-print(check) # True
-
-# list muatability
-week[3] = "march"
-print(week)
-week[3] = "wednesday"
-print(week)
-
-
-
-
-
-
-
+# del keyword
+del num[1] # delete index 1
+print(num)
+del num  # delete num list
+print(num) # num not defined
 
 
 
