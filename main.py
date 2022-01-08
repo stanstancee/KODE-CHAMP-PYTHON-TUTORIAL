@@ -1,65 +1,18 @@
-#list construction
-#using list constructor
-my_numbers = list((1,2,3,4,5,6,7,8,9))
-print(my_numbers)
-
-#using sqare brackets
+# with copy function
 week = ["sunday","monday","tuesday", "wednesday", "thursday", "friday", "saturday"]
-print(week)
+my_list = week.copy()
+print(my_list)
 
-# indexing an array
-first_day = week[0] # list index starts from 0
-third_day = week[2]
-print(first_day) # sunday
-print(third_day) # wednesday
+#with list
+another_list = list(week)
+print(another_list)
 
-# negative index
-# last element in the list has index -1
-last_day = week[-1]
-print(last_day) # saturday
+#list comprehension
+new_list = [ week[:3] for week in week]
+print(new_list)
 
-#index error 
-# looking up for the wrong index raises an error 
-# unknown_day = week[9]
-# print(unknown_day) #IndexError: list index out of range
+nums = [x for x in range(1,11,3)] 
+print(nums) # [1, 4, 7, 10]
 
-#slicing
-week = ["sunday","monday","tuesday", "wednesday", "thursday", "friday", "saturday"]
-#slice from index 2 to index 5 (index 5 excluded)
-some_days = week[2 : 5] 
-print(some_days) # ["tuesday", "wednesday", "thursday",]
-
-# begin at the original list
-some_days = week[: 5] #  ["sunday","monday","tuesday", "wednesday"]
-print(some_days)
-
-# end at the very end of the original list
-some_days = week[3: ]
-print(some_days) # ["wednesday", "thursday", "friday", "saturday"]
-
-# getting the length of a list 
-print(len(week)) # 7
-
-#list membership operators
-check = "monday" in week
-print(check) # True
-
-check = "April" not in week 
-print(check) # True
-
-# list muatability
-week[3] = "march"
-print(week)
-week[3] = "wednesday"
-print(week)
-
-
-
-
-
-
-
-
-
-
-
+sequence = [x for x in range(20) if not x % 2] #even numbers 0 - 20
+print(sequence) # [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
