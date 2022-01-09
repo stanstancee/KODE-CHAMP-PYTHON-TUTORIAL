@@ -19,7 +19,6 @@ while x < len(words):
   print(words[x])
   x += 1
 
-
 words = ["see", "another","end", "down", "inside"]
 y = 0
 while y < len(words):
