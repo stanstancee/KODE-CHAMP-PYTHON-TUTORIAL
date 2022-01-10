@@ -1,18 +1,3 @@
-#This is a comment
-print("Hello, World!")
+""" using get() """
+week = {1: 'sunday', 2: 'monday', 3: 'tuesday', 4: 'wednesday', 5: 'thursday', 6: 'friday', 7: 'saturday'}
 
-
-print("Hello, World!")#This is a comment
-
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
-
-
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
