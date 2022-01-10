@@ -9,3 +9,6 @@ first_value = dimensions[0]
 last_value = dimensions[-1]
 fifth_value = dimensions[4]
 print(first_value, last_value, fifth_value , sep="\n")
+
+t = ()
+print(type(t))
