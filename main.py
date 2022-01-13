@@ -1,18 +1,31 @@
-#This is a comment
-print("Hello, World!")
+# function
+def print_word():
+  print("I love python !")
+
+print_word()
+print_word()
+
+#passing parameters
+def print_x_times(x):
+  for i in range(x):
+    print("I love python !")
+
+print_x_times(20)
+
+#return
+def add(x,y):
+  return x + y
+print(add(10,23))
+
+# functions inside function
+def apply_twice(binary, x , y):
+    return binary(binary(x,y), binary(x,y))
+
+def add(x,y):
+    return x + y 
+
+print(apply_twice(add, 4,4))
 
 
-print("Hello, World!")#This is a comment
-
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
 
 
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
