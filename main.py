@@ -1,18 +1,17 @@
-#This is a comment
-print("Hello, World!")
+my_name = "Stanley"
+def introduction():
+  global my_name
+  my_name = my_name + " Ifeoha"
 
+  print("Hi, my name is {}".format(my_name))
 
-print("Hello, World!")#This is a comment
+introduction() 
 
-#This is a comment
-#written in
-#multiple line. 
-print("Hello, World!")
+def add(y):
+  global x
+  x = 10
+  return x + y
 
-
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
+add = add(20)
+print(add)
+print(x)
