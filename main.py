@@ -14,6 +14,7 @@ def area(*args):
 
 area(29,4)
 
+#kwargs example
 def force(**kwargs):
   # unpacking variables
   m, v, u, t = kwargs.values()
