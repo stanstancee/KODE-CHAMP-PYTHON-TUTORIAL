@@ -5,8 +5,8 @@ def all_even():
         yield n
         n += 2
 
-# for i in all_even():
-#   print(i)
+for i in all_even():
+  print(i)
 
 #pipeline generators
 def fibonacci_numbers(nums):
@@ -14,12 +14,10 @@ def fibonacci_numbers(nums):
     for _ in range(nums):
         x, y = y, x+y
         yield x
-    
-
+ 
 def square(nums):
     for num in nums:
         yield num**2
-
 
 fib = fibonacci_numbers(10)
 my_square = square(fib)
